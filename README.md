@@ -22,7 +22,7 @@ ecryptfs.mount('./private', './private', {
     password: '...'
 })
 .then(result => {
-    console.log(res)
+    console.log(result)
 });
 ```
 
